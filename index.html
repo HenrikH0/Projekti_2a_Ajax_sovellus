@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Musiikki Info</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<h1>🎵 Musiikki Info</h1>
+
+<div class="search">
+    <input 
+    type="text" 
+    id="artistInput" 
+    placeholder="Etsi Artisti">
+
+    <button id="searchBtn">
+        Etsi
+    </button>
+</div>
+
+
+<h2>Suositut Artistit</h2>
+
+<div id="artists">
+
+<button onclick="getArtist('Taylor Swift')">
+Taylor Swift
+</button>
+
+<button onclick="getArtist('Coldplay')">
+Coldplay
+</button>
+
+<button onclick="getArtist('The Weeknd')">
+The Weeknd
+</button>
+
+<button onclick="getArtist('Ed Sheeran')">
+Ed Sheeran
+</button>
+
+</div>
+
+
+<div id="result"></div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
