@@ -83,13 +83,14 @@ Projektin aikana opimme paremmin käyttämään JavaScriptiä API-datan hakemise
 Onnistuimme mielestämme hyvin sovelluksen perustoimintojen toteuttamisessa. Haastavinta oli API käyttö, koska datan rakenne ja mahdolliset virheet piti huomioida koodissa.
 Oma arvio projektista: **6/10 pistettä**
 
-## Lähteet ja kiitokset
+## Lähteet
 
 - Last.fm API Documentation
 https://www.last.fm/api
 - Last.fm API käyttäminen JSON-datan hakemiseen
 - Käytetty tekoälytyökalu: ChatGPT
 - Tekoälyä käytettiin ongelmanratkaisussa, JavaScript-koodin tarkistamisessa sekä API-toimintojen suunnittelun tukena.
+- Rautalankamallin teossa käytetty Canva sivua:https://www.canva.com/
 
   ## Lisenssi
 
