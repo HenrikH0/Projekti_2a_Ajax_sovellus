@@ -68,7 +68,8 @@ Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
 
 Esimerkki kuvan lisäämisestä:
 
-![Kuvakaappaus sovelluksesta](img/screenshot.png)
+![Kuvakaappaus sovelluksen etusivusta](img/Etusivu.png)
+![Kuvakaappaus sovelluksen Albumeista](img/Albumit.png)
 
 ## Tunnetut virheet / puutteet
 
