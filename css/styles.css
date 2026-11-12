@@ -1,0 +1,162 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background:#111;
+    color:white;
+    text-align:center;
+
+}
+
+
+h1 {
+
+    color:#ff4fd8;
+
+}
+
+.search {
+
+    margin:20px;
+
+}
+
+input {
+
+    padding:10px;
+    width:250px;
+
+}
+
+button {
+
+    padding:10px 15px;
+    margin:5px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+
+}
+
+button:hover {
+
+    background:#ff4fd8;
+    color:white;
+
+}
+
+#result {
+
+    margin-top:30px;
+
+}
+
+.album {
+
+    background:#222;
+    padding:20px;
+    margin:20px auto;
+    width:300px;
+    border-radius:15px;
+
+}
+
+.album img {
+
+    width:200px;
+    border-radius:10px;
+
+}
+
+ul {
+
+    text-align:left;
+
+}
+
+#result {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+.album {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.album img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.album h3 {
+    min-height: 50px;
+}
+
+.album button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ff4fd8;
+    color: white;
+}
+
+.album button:hover {
+    background: #ff1fc7;
+}
+
+.songs {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.songs ul {
+    padding-left: 20px;
+}
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+#result h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.album {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.album h3 {
+    min-height: 50px;
+}
