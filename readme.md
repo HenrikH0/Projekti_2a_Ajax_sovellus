@@ -64,8 +64,6 @@ Sovelluksen tavoitteena on tarjota helppo tapa tutkia musiikkia selkeän käytt�
 
 ## Kuvakaappaukset
 
-Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksestasi.
-
 Esimerkki kuvan lisäämisestä:
 
 ![Kuvakaappaus sovelluksen etusivusta](img/Etusivu.png)
@@ -73,40 +71,26 @@ Esimerkki kuvan lisäämisestä:
 
 ## Tunnetut virheet / puutteet
 
-Kerro, jos sovelluksessa on tunnettuja virheitä, puuttuvia toimintoja tai muita rajoituksia.
-
-Jos tunnettuja virheitä ei ole, kirjoita: **Ei tunnettuja virheitä.**
+**Ei tunnettuja virheitä.**
 
 ## Työn jakautuminen
 
-*Täytä tämä osio vain, jos teit projektin parityönä.*
-
-Kuvaile, miten työ jakautui ja miten yhteistyö sujui.
-
-- Tekijä 1: ...
-- Tekijä 2: ...
+- Henrik Heiskanen 1: CSS, Rautalankamallin tekeminen. README.md tiedostoa yhdessä tehtiin.
+- Jani Skogster 2: HTML, JavaScriptin tekeminen. README.md tiedostoa yhdessä.
 
 ## Oma arvio ja oppimisen reflektointi
 
-Pohdi työtäsi ja oppimisprosessiasi.
-
-- Missä onnistuin?
-- Mikä oli haastavaa?
-- Mitä parantaisin, jos aikaa olisi enemmän?
-- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
-- Mikä jäi epäselväksi tai mistä haluaisin oppia lisää?
-- Oma arvio projektista: **xx/10 pistettä**
+Projektin aikana opimme paremmin käyttämään JavaScriptiä API-datan hakemiseen ja käsittelemiseen.
+Onnistuimme mielestämme hyvin sovelluksen perustoimintojen toteuttamisessa. Haastavinta oli API käyttö, koska datan rakenne ja mahdolliset virheet piti huomioida koodissa.
+Oma arvio projektista: **6/10 pistettä**
 
 ## Lähteet ja kiitokset
 
-Listaa kaikki projektissa käyttämäsi lähteet, tutoriaalit, kuvat ja koodiesimerkit.
-
-Jos käytit ChatGPT:tä, GitHub Copilotia tai muuta tekoälytyökalua, mainitse se tässä ja kerro lyhyesti, miten se tuki työskentelyäsi.
-
-- [Lähteen tai tutoriaalin nimi](https://example.com/)
-- [Kuvalähde](https://example.com/)
-- Käytetty tekoälytyökalu: ...
-  - Miten työkalua käytettiin: ...
+- Last.fm API Documentation
+https://www.last.fm/api
+- Last.fm API käyttäminen JSON-datan hakemiseen
+- Käytetty tekoälytyökalu: ChatGPT
+- Tekoälyä käytettiin ongelmanratkaisussa, JavaScript-koodin tarkistamisessa sekä API-toimintojen suunnittelun tukena.
 
   ## Lisenssi
 
