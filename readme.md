@@ -1,20 +1,23 @@
 # Projektin nimi
 
-**Tekijä(t):** Kirjoita tähän oma nimesi / tekijöiden nimet
+**Tekijä(t):** Henrik Heiskanen / Jani Skogster
 
 ## Projektisuunnitelma
 
 ### Projektin idea
 
-Kuvaile lyhyesti, mitä sovelluksesi tekee ja kenelle se on tarkoitettu.
+Musiikki Info on verkkosovellus, jonka avulla käyttäjä voi hakea tietoa eri artisteista ja heidän albumeistaan. Sovellus käyttää Last.fm API tiedon hakemiseen ja näyttää käyttäjälle artistien albumit, albumikuvat sekä albumien kappaleet.
+
+Sovellus on tarkoitettu musiikista kiinnostuneille käyttäjille, jotka haluavat helposti löytää tietoa artisteista ja heidän musiikistaan.
 
 ### Suunnitellut toiminnot
 
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
-- Toiminto 1
-- Toiminto 2
-- Toiminto 3
+- Käyttäjä voi hakea artisteja hakukentän avulla.
+- Sovellus näyttää artistin albumit, albumikuvat ja perustiedot.
+- Käyttäjä voi avata albumin ja nähdä sen kappalelistan.
+
 
 ### Rautalankamalli / luonnos
 
@@ -27,38 +30,37 @@ Esimerkki kuvan lisäämisestä:
 ## Verkkolinkit
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://yourusername.github.io/your-repository/)
-- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/yourusername/your-repository)
-- **Projektin videoesittely:** [Lisää tähän videon osoite](https://example.com/)
+- **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/HenrikH0/Projekti_2a_Ajax_sovellus)
 
 ## Tietoja sovelluksesta
 
-**[Projektin nimi]** on verkkosovellus, joka ...
+Musiikki Info on verkkosovellus, joka tarjoaa käyttäjälle tietoa artisteista ja heidän albumeistaan. Käyttäjä voi kirjoittaa artistin nimen hakukenttään, jonka jälkeen sovellus hakee tiedot Last.fm API avulla.
 
-Kuvaile lyhyesti sovelluksen tarkoitus ja tärkeimmät toiminnot.
+Sovellus näyttää artistin albumit korttimuodossa sisältäen albumin nimen, kuvan ja artistin tiedot. Käyttäjä voi myös avata albumin kappaleet ja nähdä sen sisältämät biisit.
+
+Sovelluksen tavoitteena on tarjota helppo tapa tutkia musiikkia selkeän käyttöliittymän avulla.
 
 ## Teknologiat
 
-Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
-
-- HTML – sivun rakenne
-- CSS – ulkoasu ja asettelu
-- JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
-- localStorage – tietojen tallentaminen selaimeen, jos käytit sitä
+- HTML – sivun rakenne ja sovelluksen elementit.
+- CSS – käyttöliittymän ulkoasu, responsiivinen asettelu ja albumikorttien suunnittelu.
+- JavaScript – sovelluksen toiminnallisuus, API-kutsut, JSON-datan käsittely ja DOM-elementtien luominen.
+- Last.fm API – artistien, albumien ja kappaleiden tietojen hakeminen JSON-muodossa.
 
 ## Sovelluksen käyttö
 
-Kirjoita lyhyet käyttöohjeet sovellukselle.
-
 1. Avaa julkaistu sovellus yllä olevasta linkistä.
-2. Täytä lomakkeen kentät.
-3. Lisää, muokkaa, poista tai merkitse kohteita tehdyiksi.
-4. Päivitä sivu ja tarkista, säilyvätkö tiedot selaimessa, jos käytit localStoragea.
+2. Kirjoita hakukenttään haluamasi artistin nimi.
+3. Paina Search-painiketta.
+4. Tarkastele artistin albumeita ja albumikuvia.
+5. Paina "Show songs" -painiketta nähdäksesi albumin kappaleet.
 
 ## Sovelluksen käynnistäminen paikallisesti
 
-1. Kloonaa tai lataa tämä repositorio omalle koneellesi.
-2. Avaa projektikansio.
-3. Avaa `index.html` selaimessa.
+1. Kloonaa tai lataa projektin repositorio omalle koneellesi.
+2. Avaa projektikansio Visual Studio Codessa.
+3. Avaa index.html selaimessa tai käytä Live Server -laajennusta.
+4. Sovellus hakee musiikkitiedot Last.fm API kautta.
 
 ## Kuvakaappaukset
 
