@@ -31,7 +31,7 @@ Esimerkki kuvan lisäämisestä:
 
 - **Julkaistu sovellus:** [Lisää tähän GitHub Pages -osoite](https://henrikh0.github.io/Projekti_2a_Ajax_sovellus/)
 - **GitHub-repositorio:** [Lisää tähän repositorion osoite](https://github.com/HenrikH0/Projekti_2a_Ajax_sovellus)
-- netlifly sovellus https://projekti-2a-musiikkisivu0.netlify.app
+- **Netlifly sovellus** https://projekti-2a-musiikkisivu0.netlify.app
 
 ## Tietoja sovelluksesta
 
